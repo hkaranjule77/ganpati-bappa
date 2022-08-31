@@ -11,6 +11,7 @@
 body {
     /* Scaling up because image is small */
     transform: scale(1.8);
+    background-color:bisque;
 }
 
 #ganpati-bappa {
@@ -114,7 +115,7 @@ body {
     width: 2rem;
     height: 2rem;
     float: left;
-    border: 0.25rem white solid;
+    border: 0.25rem bisque solid;
     border-radius: 0.25rem;
     border-bottom: 0;
     z-index: 2;
@@ -137,7 +138,7 @@ body {
     width: 4rem;
     height: 1rem;
     float: right;
-    border: 0.25rem white solid;
+    border: 0.25rem bisque solid;
     z-index: 3;
 }
 
@@ -149,7 +150,7 @@ body {
     height: 0.75rem;
     margin-top: 1.25rem;
     float: right;
-    border: 0.25rem white solid;
+    border: 0.25rem bisque solid;
     z-index: 3;
 }
 
@@ -160,7 +161,7 @@ body {
     width: 2rem;
     height: 0.75rem;
     float: right;
-    border: 0.25rem white solid;
+    border: 0.25rem bisque solid;
     border-top: 0;
     z-index: 3;
 }

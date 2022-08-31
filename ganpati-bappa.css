@@ -1,0 +1,175 @@
+@font-face {
+    font-family: kalam-regular;
+    src: url('./Kalam-Regular.ttf');
+}
+
+/*
+    Convention: 
+        Left and Right are from Ganpati Bappa's point of view.
+*/
+
+body {
+    /* Scaling up because image is small */
+    transform: scale(1.8);
+}
+
+#ganpati-bappa {
+    margin-top: 16rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 15rem;
+}
+
+#abdomen {
+    position: relative;
+    bottom: 2rem;
+    background-color: coral;
+    height: 5rem;
+    width: 7.5rem;
+    float: left;
+    z-index: 0;
+    border-radius: 0.25rem;
+
+}
+
+#left-ear {
+    position: relative;
+    background-color: coral;
+    width: 3rem;
+    height: 5rem;
+    float: right;
+    border-radius: 0.25rem;
+}
+
+#face {
+    position: relative;
+    margin-left: 0.5rem;
+    background-color: coral;
+    width: 3rem;
+    height: 5rem;
+    float: left;
+    border-radius: 0.25rem;
+}
+
+#left-eye {
+    position: relative;
+    top: 1.5rem;
+    right: 0.5rem;
+    background-color: white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: .25rem;
+    float: right;
+}
+
+#left-leg {
+    position: relative;
+    bottom: 2rem;
+    background-color: coral;
+    width: 6.25rem;
+    height: 3rem;
+    float: right;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+#modak {
+    position: relative;
+    right: .75rem;
+    background-color: coral;
+    width: 1rem;
+    height: 1rem;
+    float: right;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    transform: rotate(45deg);
+}
+
+#right-eye {
+    position: relative;
+    top: 1.5rem;
+    left: 0.5rem;
+    background-color: white;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: .25rem;
+    float: left;
+}
+
+#right-ear {
+    position: relative;
+    background-color: coral;
+    width: 3rem;
+    height: 5rem;
+    float: left;
+    border-radius: 0.25rem;
+}
+
+#right-hand {
+    position: relative;
+    top: 2.75rem;
+    right: 0.25rem;
+    background-color: coral;
+    width: 2rem;
+    height: 2rem;
+    float: left;
+    border: 0.25rem white solid;
+    border-radius: 0.25rem;
+    border-bottom: 0;
+    z-index: 2;
+}
+
+#right-leg {
+    position: relative;
+    bottom: 1.5rem;
+    background-color: coral;
+    width: 3rem;
+    height: 3rem;
+    float: left;
+    border-radius: 0.25rem;
+}
+
+#trunk1 {
+    position: relative;
+    right: 1.5rem;
+    background-color: coral;
+    width: 4rem;
+    height: 1rem;
+    float: right;
+    border: 0.25rem white solid;
+    z-index: 3;
+}
+
+#trunk2 {
+    position: relative;
+    left: 3.5rem;
+    background-color: coral;
+    width: 3rem;
+    height: 0.75rem;
+    margin-top: 1.25rem;
+    float: right;
+    border: 0.25rem white solid;
+    z-index: 3;
+}
+
+#trunk3 {
+    position: relative;
+    right: 0.5rem;
+    background-color: coral;
+    width: 2rem;
+    height: 0.75rem;
+    float: right;
+    border: 0.25rem white solid;
+    border-top: 0;
+    z-index: 3;
+}
+
+.text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: kalam-regular;
+    text-align: center;
+    display: block;
+    color: coral;
+}
